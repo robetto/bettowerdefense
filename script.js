@@ -12,8 +12,8 @@ const gameGrid = [];
 
 // mouse
 const mouse = {
-  x: 11,
-  y: 11,
+  x: 111,
+  y: 111,
   width: 0.1,
   height: 0.1,
 };
@@ -77,6 +77,7 @@ function handleGameGrid() {
 
 // utilities
 function animate() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = "blue";
   ctx.fillRect(0, 0, controlsBar.width, controlsBar.height);
   handleGameGrid();
