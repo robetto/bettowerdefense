@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
 * {
   padding: 0;
   margin: 0;
 }
 body {
   background-color: gainsboro;
+  font-family: "Potta One", cursive;
 }
 #canvas1 {
   position: absolute;
@@ -14,4 +16,5 @@ body {
   transform: translate(-50%, -50%);
   border: 3px solid white;
   background-color: white;
+  font-family: "Potta One", cursive;
 }
